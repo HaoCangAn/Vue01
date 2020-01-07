@@ -1,23 +1,23 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div >
     <router-view/>
+     <!-- <router-view name="car"></router-view> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei',"微软雅黑";
+    color: #333;
+    background:#f5f5f5;
+}
+body {
+    margin: 0;
 }
 </style>
